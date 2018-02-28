@@ -856,7 +856,7 @@
         "description": "[post/comment submitted...] to $subreddit"
     },
     "stylesheetSubredditClassDesc": {
-        "message": "Na stronach subreddita, dodaj nazwę subreddita jako klasę CSS do elementu body.\nNa przykład, /r/ExampleSubreddit będzie miał klasę \"body.res-r-examplesubreddit\".",
+        "message": "Na stronach subreddita, dodaj nazwę subreddita jako klasę CSS do elementu body.\nNa przykład, /r/ExampleSubreddit będzie miał klasę \"body.res-r-examplesubsaidit\".",
         "description": ""
     },
     "nightModeNightModeOnDesc": {
@@ -1232,7 +1232,7 @@
         "description": ""
     },
     "profileRedirectCustomFromLandingPageDesc": {
-        "message": "Przekieruj na własny widok na stronie profilu podczas ładowania strony głównej profilu, np. reddit.com/user/{toCoWpiszesz}/",
+        "message": "Przekieruj na własny widok na stronie profilu podczas ładowania strony głównej profilu, np. saidit.net/user/{toCoWpiszesz}/",
         "description": ""
     },
     "messageMenuFadeSpeedTitle": {
@@ -1512,7 +1512,7 @@
         "description": ""
     },
     "profileRedirectFromLandingPageDesc": {
-        "message": "Przekieruj na konkretny widok na stronie profilu podczas ładowania strony głównej profilu, np. reddit.com/user/u_example/",
+        "message": "Przekieruj na konkretny widok na stronie profilu podczas ładowania strony głównej profilu, np. saidit.net/user/u_example/",
         "description": ""
     },
     "aboutOptionsPresets": {
@@ -2032,7 +2032,7 @@
         "description": ""
     },
     "quickMessageHandleContentLinksDesc": {
-        "message": "Otwórz okno dialogowe umożliwiające wysłanie szybkiej wiadomości po kliknięciu na linki reddit.com/message/compose w komentarzach, tekście własnym lub na stronach wiki.",
+        "message": "Otwórz okno dialogowe umożliwiające wysłanie szybkiej wiadomości po kliknięciu na linki saidit.net/message/compose w komentarzach, tekście własnym lub na stronach wiki.",
         "description": ""
     },
     "orangeredUpdateCurrentTabDesc": {
@@ -3984,7 +3984,7 @@
         "description": ""
     },
     "quickMessageHandleSideLinksDesc": {
-        "message": "Otwórz okno dialogowe umożliwiające wysłanie szybkiej wiadomości po kliknięciu na linki reddit.com/message/compose na pasku bocznym (np. \"napisz do moderatorów\").",
+        "message": "Otwórz okno dialogowe umożliwiające wysłanie szybkiej wiadomości po kliknięciu na linki saidit.net/message/compose na pasku bocznym (np. \"napisz do moderatorów\").",
         "description": ""
     },
     "keyboardNavPreviousGalleryImageDesc": {
@@ -5516,7 +5516,7 @@
         "description": ""
     },
     "filteRedditDomainsDesc": {
-        "message": "Hide posts that link to certain domains.\nCaution: domain keywords like \"reddit\" would ignore \"reddit.com\" and \"fooredditbar.com\".",
+        "message": "Hide posts that link to certain domains.\nCaution: domain keywords like \"saidit\" would ignore \"saidit.net\" and \"fooredditbar.com\".",
         "description": ""
     },
     "showImagesShowVideoControlsDesc": {

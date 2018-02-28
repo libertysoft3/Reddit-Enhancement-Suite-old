@@ -1512,7 +1512,7 @@
         "description": ""
     },
     "profileRedirectFromLandingPageDesc": {
-        "message": "Redirect to a particular view of a profile when loading the default landing page (i.e. reddit.com/user/u_example/).",
+        "message": "Redirect to a particular view of a profile when loading the default landing page (i.e. saidit.net/user/u_example/).",
         "description": ""
     },
     "aboutOptionsPresets": {
@@ -2032,7 +2032,7 @@
         "description": ""
     },
     "quickMessageHandleContentLinksDesc": {
-        "message": "Abre la ventana de mensaje rapido cuando se hace clic en enlaces de reddit.com/message/compose en comentarios, selftext o páginas wiki.",
+        "message": "Abre la ventana de mensaje rapido cuando se hace clic en enlaces de saidit.net/message/compose en comentarios, selftext o páginas wiki.",
         "description": ""
     },
     "orangeredUpdateCurrentTabDesc": {
@@ -3984,7 +3984,7 @@
         "description": ""
     },
     "quickMessageHandleSideLinksDesc": {
-        "message": "Abrir la ventana de mensaje rápido cuando se hace clic a enlaces reddit.com/message/compose en la barra lateral. (ejemplo \"mensaje a los moderadores\")",
+        "message": "Abrir la ventana de mensaje rápido cuando se hace clic a enlaces saidit.net/message/compose en la barra lateral. (ejemplo \"mensaje a los moderadores\")",
         "description": ""
     },
     "keyboardNavPreviousGalleryImageDesc": {
@@ -5516,7 +5516,7 @@
         "description": ""
     },
     "filteRedditDomainsDesc": {
-        "message": "Hide posts that link to certain domains.\nCaution: domain keywords like \"reddit\" would ignore \"reddit.com\" and \"fooredditbar.com\".",
+        "message": "Hide posts that link to certain domains.\nCaution: domain keywords like \"saidit\" would ignore \"saidit.net\" and \"fooredditbar.com\".",
         "description": ""
     },
     "showImagesShowVideoControlsDesc": {

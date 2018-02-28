@@ -1,3 +1,30 @@
+# RES for Reddit clones
+
+A basic RES build for your clone, in this case saidit.net
+
+    git checkout v5.10.3
+    find ./ -type f -exec sed -i -e 's/reddit.com/saidit.net/g' {} \;
+    find ./ -type f -exec sed -i -e 's/reddit\\/saidit\\/g' {} \;
+    git checkout -- *.md
+    git checkout -- tests/*
+    git checkout -- changelog/*
+    # edit `package.json`, changing title, name, description and maybe some others
+    # customize the graphics in `images`
+
+    npm update npm -g
+    npm install rimraf
+    npm install
+    npm run build -- all
+
+### Issues
+
+  * Chrome manifest error: remove this line from manifest.json and rebuild `"minimum_opera_version": "48",`
+  * YouTube api quotas are often reached
+    * api key `AIzaSyB8ufxFN0GapU1hSzIbuOLfnFC0XzJousw` is set in `lib/modules/betteReddit.js`
+    * api: https://www.googleapis.com/youtube/v3/videos
+  * Hovering over a subreddit shows "Subreddit not found."
+
+
 # Reddit Enhancement Suite
 
 [![Travis Build Status](https://travis-ci.org/honestbleeps/Reddit-Enhancement-Suite.svg?branch=master)](https://travis-ci.org/honestbleeps/Reddit-Enhancement-Suite)

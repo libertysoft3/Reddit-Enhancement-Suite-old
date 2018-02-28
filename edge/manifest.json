@@ -26,26 +26,26 @@
 	},
 	"content_scripts": [{
 		"matches": [
-			"https://*.reddit.com/*"
+			"https://*.saidit.net/*"
 		],
 		"exclude_matches": [
-			"https://mod.reddit.com/*",
-			"https://ads.reddit.com/*",
-			"https://i.reddit.com/*",
-			"https://m.reddit.com/*",
-			"https://static.reddit.com/*",
-			"https://thumbs.reddit.com/*",
-			"https://blog.reddit.com/*",
-			"https://code.reddit.com/*",
-			"https://about.reddit.com/*",
-			"https://*.reddit.com/*.compact",
-			"https://*.reddit.com/*.compact?*",
-			"https://*.reddit.com/*.mobile",
-			"https://*.reddit.com/*.mobile?*",
-			"https://*.reddit.com/*.json",
-			"https://*.reddit.com/*.json?*",
-			"https://*.reddit.com/*.json-html",
-			"https://*.reddit.com/*.json-html?*"
+			"https://mod.saidit.net/*",
+			"https://ads.saidit.net/*",
+			"https://i.saidit.net/*",
+			"https://m.saidit.net/*",
+			"https://static.saidit.net/*",
+			"https://thumbs.saidit.net/*",
+			"https://blog.saidit.net/*",
+			"https://code.saidit.net/*",
+			"https://about.saidit.net/*",
+			"https://*.saidit.net/*.compact",
+			"https://*.saidit.net/*.compact?*",
+			"https://*.saidit.net/*.mobile",
+			"https://*.saidit.net/*.mobile?*",
+			"https://*.saidit.net/*.json",
+			"https://*.saidit.net/*.json?*",
+			"https://*.saidit.net/*.json-html",
+			"https://*.saidit.net/*.json-html?*"
 		],
 		"js": [
 			"{{file-loader?name=[name].[ext]!url-search-params/build/url-search-params.js}}",
@@ -58,7 +58,7 @@
 		"run_at": "document_start"
 	}],
 	"permissions": [
-		"https://*.reddit.com/*",
+		"https://*.saidit.net/*",
 		"cookies",
 		"identity",
 		"tabs",

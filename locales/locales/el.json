@@ -1512,7 +1512,7 @@
         "description": ""
     },
     "profileRedirectFromLandingPageDesc": {
-        "message": "Redirect to a particular view of a profile when loading the default landing page (i.e. reddit.com/user/u_example/).",
+        "message": "Redirect to a particular view of a profile when loading the default landing page (i.e. saidit.net/user/u_example/).",
         "description": ""
     },
     "aboutOptionsPresets": {
@@ -2032,7 +2032,7 @@
         "description": ""
     },
     "quickMessageHandleContentLinksDesc": {
-        "message": "Άνοιγμα του διαλόγου γρήγορου μηνύματος όταν γίνεται κλικ σε συνδέσμους reddit.com/message/compose στα σχόλια, selftext ή σελίδες wiki.",
+        "message": "Άνοιγμα του διαλόγου γρήγορου μηνύματος όταν γίνεται κλικ σε συνδέσμους saidit.net/message/compose στα σχόλια, selftext ή σελίδες wiki.",
         "description": ""
     },
     "orangeredUpdateCurrentTabDesc": {
@@ -3984,7 +3984,7 @@
         "description": ""
     },
     "quickMessageHandleSideLinksDesc": {
-        "message": "Άνοιγμα του διαλόγου γρήγορου μηνύματος όταν γίνεται κλικ σε συνδέσμους reddit.com/message/compose στην πλευρική μπάρα (π.χ. \"μήνυμα προς διαχειριστές\")",
+        "message": "Άνοιγμα του διαλόγου γρήγορου μηνύματος όταν γίνεται κλικ σε συνδέσμους saidit.net/message/compose στην πλευρική μπάρα (π.χ. \"μήνυμα προς διαχειριστές\")",
         "description": ""
     },
     "keyboardNavPreviousGalleryImageDesc": {
@@ -5516,7 +5516,7 @@
         "description": ""
     },
     "filteRedditDomainsDesc": {
-        "message": "Hide posts that link to certain domains.\nCaution: domain keywords like \"reddit\" would ignore \"reddit.com\" and \"fooredditbar.com\".",
+        "message": "Hide posts that link to certain domains.\nCaution: domain keywords like \"saidit\" would ignore \"saidit.net\" and \"fooredditbar.com\".",
         "description": ""
     },
     "showImagesShowVideoControlsDesc": {

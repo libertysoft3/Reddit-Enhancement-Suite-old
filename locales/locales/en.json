@@ -2359,7 +2359,7 @@
 		"message": "Domains"
 	},
 	"filteRedditDomainsDesc": {
-		"message": "Hide posts that link to certain domains.\nCaution: domain keywords like \"reddit\" would ignore \"reddit.com\" and \"fooredditbar.com\"."
+		"message": "Hide posts that link to certain domains.\nCaution: domain keywords like \"saidit\" would ignore \"saidit.net\" and \"fooredditbar.com\"."
 	},
 	"filteRedditFlairTitle": {
 		"message": "Flair"
@@ -2822,10 +2822,10 @@
 		"message": "The default user or subreddit to select when the \"from\" field is unspecified.\nReverts to the current user if the selected option can't be used (i.e. you aren't a moderator of the current subreddit)."
 	},
 	"quickMessageHandleContentLinksDesc": {
-		"message": "Open the quick message dialog when clicking on reddit.com/message/compose links in comments, selftext, or wiki pages."
+		"message": "Open the quick message dialog when clicking on saidit.net/message/compose links in comments, selftext, or wiki pages."
 	},
 	"quickMessageHandleSideLinksDesc": {
-		"message": "Open the quick message dialog when clicking on reddit.com/message/compose links in the sidebar. (e.g. \"message the moderators\")"
+		"message": "Open the quick message dialog when clicking on saidit.net/message/compose links in the sidebar. (e.g. \"message the moderators\")"
 	},
 	"quickMessageLinkToCurrentPageDesc": {
 		"message": "Automatically start with a link to the current page in the message body (or, if opened from the user info popup, a link to the current post or comment)."
@@ -3066,7 +3066,7 @@
 		"message": "From Landing Page"
 	},
 	"profileRedirectFromLandingPageDesc": {
-		"message": "Redirect to a particular view of a profile when loading the default landing page (i.e. reddit.com/user/u_example/)."
+		"message": "Redirect to a particular view of a profile when loading the default landing page (i.e. saidit.net/user/u_example/)."
 	},
 	"profileRedirectFromLandingPageNotificationTitle": {
 		"message": "Change Profile Landing Page"
