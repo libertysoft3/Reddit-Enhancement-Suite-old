@@ -2,7 +2,7 @@
 
 A basic RES build for your clone, in this case saidit.net
 
-    git checkout v5.10.3
+    git checkout -b v5.10.3-saidit v5.10.3
     find ./ -type f -exec sed -i -e 's/reddit.com/saidit.net/g' {} \;
     find ./ -type f -exec sed -i -e 's/reddit\\/saidit\\/g' {} \;
     git checkout -- *.md
