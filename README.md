@@ -16,14 +16,12 @@ A basic RES build for your clone, in this case saidit.net
     npm install
     npm run build -- all
 
-### Issues
+### Known Issues
 
-  * Chrome manifest error: remove this line from manifest.json and rebuild `"minimum_opera_version": "48",`
-  * YouTube api quotas are often reached
-    * api key `AIzaSyB8ufxFN0GapU1hSzIbuOLfnFC0XzJousw` is set in `lib/modules/betteReddit.js`
-    * api: https://www.googleapis.com/youtube/v3/videos
   * Hovering over a subreddit shows "Subreddit not found."
-
+  * Chrome manifest error "minimum_opera_version" is [known](https://github.com/honestbleeps/Reddit-Enhancement-Suite/issues/4209) RES behavior
+  * YouTube API quotas sometimes reached, causing expandos to fail
+    * The api key for https://www.googleapis.com/youtube/v3/videos is set in `lib/modules/betteReddit.js`
 
 # Reddit Enhancement Suite
 

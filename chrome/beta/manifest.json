@@ -6,6 +6,7 @@
 	"author": "{{prop-loader?author!../../package.json}}",
 	"homepage_url": "{{prop-loader?homepage!../../package.json}}",
 	"minimum_chrome_version": "61",
+	"minimum_opera_version": "48",
 	"icons": {
 		"48": "{{../../images/beta48.png}}",
 		"128": "{{../../images/beta128.png}}"
